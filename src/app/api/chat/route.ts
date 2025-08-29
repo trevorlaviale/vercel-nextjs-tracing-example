@@ -1,5 +1,3 @@
-export const runtime = 'nodejs';
-
 import { openai } from '@ai-sdk/openai';
 import { streamText, UIMessage, convertToModelMessages, tool, stepCountIs, generateText} from 'ai';
 import { z } from 'zod';
